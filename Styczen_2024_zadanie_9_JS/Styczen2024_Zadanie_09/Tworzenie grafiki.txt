@@ -1,0 +1,86 @@
+LOGO
+	1.Odpalamy GIMP-a i tworzymy nowy plik.
+	
+	2.Ustawiamy wysokość i szerokość na 50px.
+	
+	3.Rozwijamy "Zaawansowane opcje".
+	
+	4.Odnajdujemy pozycję "Wypełnienie" i wybieramy "Przeźroczystość".
+	
+	5.Uzywamy narzędzia "Tekst" i zaznaczamy obszar do wpisania tekstu.
+	
+	6.Ustawiamy czcionkę Arial Bold, rozmiar 50px oraz kolor ciemno-czerwony.
+	
+	7.Rozwijamy "Obraz" , wybieramy "Kadruj do zawartosci".
+	
+	8.Rozwijamy "Obraz" , wybieramy "Skaluj obraz" i ustawiamy wysokosc i szerokość na 50px bez zachowania proporcji.
+	
+	9.Rozwijamy "Plik", wybieramy "Wyeksportuj" , zapisujemy jako favicon.png.
+	
+BANER
+	1.Odpalamy GIMP-a i tworzymy nowy plik.
+	
+	2.Ustawiamy wysokość na 200px i szerokość na 1000px.
+	
+	3.Rozwijamy "Zaawansowane opcje".
+	
+	4.Odnajdujemy pozycję "Wypełnienie" i wybieramy "Przeźroczystość".
+	
+	5.Rozwijamy "Plik" i wybieramy "Otwórz" , następnie wybieramy plik mysz.jpg.
+	
+	6.Rozwijamy "Obraz" , wybieramy "Skaluj obraz" i ustawiamy wysokość 200px z zachowaniem proporcji.
+	
+	7.Na obrazie uzywamy Ctrl+C.
+	
+	8.Przechodzimy do stworzonego przez nas pliku i używamy Ctrl+V.
+	
+	9.Ustawiamy strzałkami obraz po prawej stronie.
+	
+	10. Znów używamy Ctrl+V i ustawiamy obraz po lewej stronie.
+	
+	11.Rozwijamy "Narzędzia".
+	
+	12.Wybieramy "Narzędzia przekształacania" i klikamy "Obrót".
+	
+	13.Wpisujemy wartość 180 i klikamy "Obróć".
+	
+	14.Używamy narzędzia "Tekst" i zaznaczamy obszar do wpisania tekstu.
+	
+	15.Ustawiamy czcionkę Arial Bold, rozmiar np.65px oraz kolor ciemno-żółty (wg grafiki) oraz wyśrodkowujemy tekst.
+	
+	16.Rozwijamy "Plik", wybieramy "Wyeksportuj" , zapisujemy jako baner2.png.
+	
+	17.Cofamy wpisany tekst i ponownie zaznaczamy obszar do wpisania tekstu.
+	
+	18. Wpisujemy ten sam tekst z tymi samymi ustawieniami oprócz koloru. Kolor ustawiamy na czerwony.
+	
+	19.Rozwijamy "Plik", wybieramy "Wyeksportuj jako" , zapisujemy jako baner1.png.
+	
+ANIMACJA
+	
+	1.Opalamy ponownie GIMP-a i wybieramy "Otwórz jako warstwy" i wybieramy nasze obydwa banery.
+	
+	2.Pierwszą warstwę ukrywamy (ikonka oka po prawej stronie).
+	
+	3.Rozwijamy "Plik",wybieramy "Wyeksportuj jako" , następnie rozwijamy "Wybór typu pliku" i odnajdujemy pozycję "Obraz GIF".
+	
+	4.Zapisujemy jako animacja.gif.
+	
+	5.Zaznaczamy opcję "Jako animacja".
+	
+	6.Ustawiamy opóźnienie między klatkami na 4000ms.
+	
+	7.Ustawiamy traktowanie klatek "Jedna klatka na warstę (zastępowanie)".
+	
+	8.Wykonujemy zrzut ekranu i opisujemy klatki.jpg.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
