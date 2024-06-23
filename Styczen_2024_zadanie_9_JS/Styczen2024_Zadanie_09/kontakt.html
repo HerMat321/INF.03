@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+
+    <title>Komputery</title>
+</head>
+<body>
+    <!--Kontener-->
+    <div class="kontener">
+
+        <!--Baner-->
+        <header>
+            <div class="baner">
+                <img src="animacja.gif" alt="Pogotowie komputerowe">
+            </div>
+        </header>
+
+        <!--Menu-->
+        <nav>
+            <div class="menu">
+                <a href="index.html">Strona Główna</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+        </nav>
+
+        <!--Bloki Główne-->
+        <article>
+            <!--Blok 1-->
+            <section>
+                <div class="blok1"></div>
+            </section>
+
+            <!--Blok 2-->
+            <section>
+                <div class="blok2">
+                    <h2>Kontakt</h2>
+
+                    <!--Robimy return false zeby wynik nie znikał odrazu po wysłaniu skryptu tylko został na ekranie-->
+                    <form onsubmit="komunikat();return false">
+                        <table>
+                            <!--1 wiersz-->
+                            <tr>
+                                <td>Imię:</td>
+                                <td><input type="text" id="imie"></td>
+                            </tr>
+
+                            <!--2 wiersz-->
+                            <tr>
+                                <td>Nazwisko:</td>
+                                <td><input type="text" id="nazwisko"></td>
+                            </tr>
+
+                            <!--3 wiersz-->
+                            <tr>
+                                <td>E-mail:</td>
+                                <td><input type="email" id="email"></td>
+                            </tr>
+
+                            <!--4 wiersz-->
+                            <tr>
+                                <td>Zgłoszenie:</td>
+                                <td>
+                                    <select id="zgloszenie">
+                                        <option value="naprawa komputerów">naprawa komputerów</option>
+
+                                        <option value="odzyskiwanie danych">odzyskiwanie danych</option>
+
+                                        <option value="wirusy">wirusy</option>
+
+                                        <option value="konfiguracja LAN">konfiguracja LAN</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <!--5 wiersz-->
+                            <tr>
+                                <td></td>
+                                <td><input type="checkbox" id="checkbox" checked>Wyślij kopię wiadomości</td>
+                            </tr>
+
+                            <!--6 wiersz-->
+                            <tr>
+                                <td></td>
+                                <td><button type="reset">Czyść</button> <button id="wyslij">Wyślij</button></td>
+                            </tr>
+                        </table>
+                    </form>
+                    <hr>
+                    <p id="wynik"></p>
+                </div>
+            </section>
+
+            <!--Blok 3-->
+            <section>
+                <div class="blok3"></div>
+            </section>
+        </article>
+
+        <!--Stopka-->
+        <footer>
+            <div class="stopka">
+                Autor: <em>HerMat321</em>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
