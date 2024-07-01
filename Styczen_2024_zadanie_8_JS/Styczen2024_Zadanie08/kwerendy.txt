@@ -1,0 +1,11 @@
+kw1
+SELECT kadra.imie,kadra.nazwisko,kadra.stanowisko FROM kadra WHERE stanowisko IN ("fryzjer","stylista");
+
+kw2
+SELECT count(uslugi.nazwa) AS liczba_uslug, max(uslugi.cena) AS najwyzsza_cena FROM uslugi;
+
+kw3
+SELECT uslugi.nazwa,kadra.imie FROM uslugi INNER JOIN kadra ON uslugi.kadra_id=kadra.id WHERE uslugi.rodzaj IN (2,3)
+
+kw4
+ALTER TABLE uslugi ADD COLUMN opinia varchar(255);
