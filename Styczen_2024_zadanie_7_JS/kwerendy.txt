@@ -1,0 +1,11 @@
+kw1
+SELECT uslugi.nazwa,uslugi.cena FROM uslugi WHERE uslugi.cena >=50;
+
+kw2
+SELECT avg(uslugi.cena) AS srednia_cena,count(uslugi.nazwa) AS liczba_uslug FROM uslugi WHERE uslugi.rodzaj=1;
+
+kw3
+CREATE USER 'kosmetyczka'@'localhost' IDENTIFIED BY 'Kosmet34';
+
+kw4
+GRANT SELECT,UPDATE ON salon.uslugi TO kosmetyczka;

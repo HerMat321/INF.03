@@ -1,0 +1,58 @@
+* { font-family: Cambria;}
+
+.lewy1,.lewy2
+{
+    float: left;
+    background-color: #e1bee7;
+    width: 25%;
+}
+
+.lewy1 { height: 400px;}
+.lewy2 { height: 330px;}
+
+.prawy1,.prawy2
+{
+    float: right;
+    width: 75%;
+    font-size: 170%;
+    text-align: center;
+}
+
+.prawy1 
+{
+    background-color: #9c64a6;
+    color: white;
+    height: 150px;
+    letter-spacing: 5px;
+}
+
+.prawy2
+{
+    color: indigo;
+    height: 580px;
+}
+
+.stopka
+{
+    clear: both;
+    background-color: #9c64a6;
+    color: white;
+    padding: 10px;
+}
+
+h2 { text-align: center;}
+ul { list-style-type: circle;}
+
+img
+{
+    padding: 4px;
+    margin: 15px;
+}
+
+img:hover
+{
+    padding: 3px;
+    border: 1px dashed indigo;
+}
+
+a[href="index.html"] { margin: 25px;}
