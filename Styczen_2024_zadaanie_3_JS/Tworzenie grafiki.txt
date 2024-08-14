@@ -1,0 +1,79 @@
+LOGO
+	1.Odpalamy GIMP-a i tworzymy nowy plik.
+	
+	2.Ustawiamy wysokość i szerokość na 100px.
+	
+	3.Rozwijamy "Zaawansowane opcje".
+	
+	4.Odnajdujemy pozycję "Wypełnienie" i wybieramy "Przeźroczystość".
+	
+	5.Uzywamy narzędzia "Tekst" i zaznaczamy obszar do wpisania tekstu.
+	
+	6.Ustawiamy czcionkę Arial Bold, rozmiar 100px oraz kolor niebieski.
+	
+	7.Rozwijamy "Obraz" , wybieramy "Kadruj do zawartosci".
+	
+	8.Rozwijamy "Obraz" , wybieramy "Skaluj obraz" i ustawiamy wysokosc i szerokość na 100px bez zachowania proporcji.
+	
+	9.Rozwijamy "Plik", wybieramy "Wyeksportuj" , zapisujemy jako logo.png.
+	
+BANER
+	1.Odpalamy GIMP-a i tworzymy nowy plik.
+	
+	2.Ustawiamy wysokość na 200px i szerokość na 1000px.
+	
+	3.Rozwijamy "Zaawansowane opcje".
+	
+	4.Odnajdujemy pozycję "Wypełnienie" i wybieramy "Przeźroczystość".
+	
+	5.Rozwijamy "Plik" i wybieramy "Otwórz" , następnie wybieramy plik grafika.jpg.
+	
+	6.Rozwijamy "Obraz" , wybieramy "Skaluj obraz" i ustawiamy wysokość 200px z zachowaniem proporcji.
+	
+	7.Na obrazie uzywamy Ctrl+C.
+	
+	8.Przechodzimy do stworzonego przez nas pliku i używamy Ctrl+V.
+	
+	9.Ustawiamy strzałkami obraz po lewej stronie.
+	
+	
+	10.Używamy narzędzia "Tekst" i zaznaczamy obszar do wpisania tekstu.
+	
+	11.Ustawiamy czcionkę Serif Italic, rozmiar np.65px oraz kolor niebieski (wg grafiki) oraz wyśrodkowujemy tekst.
+	
+	12.Rozwijamy "Plik", wybieramy "Wyeksportuj" , zapisujemy jako baner1.png.
+	
+	13.Cofamy wpisany tekst.
+	
+	14. Wpisujemy ten sam tekst z tymi samymi ustawieniami i ustawiamy tekst do lewej strony.
+	
+	15.Rozwijamy "Plik", wybieramy "Wyeksportuj jako" , zapisujemy jako baner2.png.
+	
+ANIMACJA
+	
+	1.Opalamy ponownie GIMP-a i wybieramy "Otwórz jako warstwy" i wybieramy nasze obydwa banery.
+	
+	2.Pierwszą warstwę ukrywamy (ikonka oka po prawej stronie).
+	
+	3.Rozwijamy "Plik",wybieramy "Wyeksportuj jako" , następnie rozwijamy "Wybór typu pliku" i odnajdujemy pozycję "Obraz GIF".
+	
+	4.Zapisujemy jako animacja.gif.
+	
+	5.Zaznaczamy opcję "Jako animacja".
+	
+	6.Ustawiamy opóźnienie między klatkami na 3000ms.
+	
+	7.Ustawiamy traktowanie klatek "Jedna klatka na warstę (zastępowanie)".
+	
+	8.Wykonujemy zrzut ekranu i opisujemy klatki.jpg.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
