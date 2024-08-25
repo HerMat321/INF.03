@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <title>Komputery</title>
+</head>
+
+<body>
+    <!--Kontener-->
+    <div id="kontener">
+        <!--Baner-->
+        <header>
+            <div id="baner">
+                <img src="animacja.gif" alt="Pogotowie komputerowe">
+            </div>
+        </header>
+
+        <!--Menu-->
+        <nav>
+            <div id="menu">
+                <a href="index.html">Strona Główna</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+        </nav>
+
+        <!--Blok 1-->
+        <section>
+            <div id="blok1">
+                
+            </div>
+        </section>
+
+        <!--Blok 2-->
+        <section>
+            <div id="blok2">
+                <h2>Kontakt</h2>
+
+                <form onsubmit="kontakt(); return false">
+                    <table>
+
+                        <!--1-->
+                        <tr>
+                            <td>Imię:</td>
+                            <td><input type="text" id="imie"></td>
+                        </tr>
+
+                        <!--2-->
+                        <tr>
+                            <td>Nazwisko:</td>
+                            <td><input type="text" id="nazwisko"></td>
+                        </tr>
+
+                        <!--3-->
+                        <tr>
+                            <td>E-mail:</td>
+                            <td><input type="email" id="email"></td>
+                        </tr>
+
+                        <!--4-->
+                        <tr>
+                            <td>Zgłoszenie:</td>
+                            <td>
+                                <select id="usluga">
+                                    <option>naprawa komputerów</option>
+                                    <option>odzyskiwanie danych</option>
+                                    <option>wirusy</option>
+                                    <option>konfiguracja LAN</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <!--5-->
+                        <tr>
+                            <td></td>
+                            <td><input type="checkbox" id="checkbox" checked>Wyślij kopię wiadomości</td>
+                        </tr>
+
+                        <!--6-->
+                        <tr>
+                            <td></td>
+                            <td><button type="reset">Czyść</button> <button id="przycisk">Wyślij</button></td>
+                        </tr>
+                    </table>
+                </form>
+                <hr>
+                <p id="wynik"></p>
+            </div>
+        </section>
+
+        <!--Blok 3-->
+        <section>
+            <div id="blok3">
+                
+            </div>
+        </section>
+
+        <!--Stopka-->
+        <footer>
+            <div id="stopka">
+                Autor: <i>HerMat321</i>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

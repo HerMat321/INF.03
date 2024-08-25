@@ -1,0 +1,57 @@
+body
+{
+    background-color: #e0f7fa;
+    font-family: Arial;
+    text-align: center;
+}
+
+#kontener
+{
+    width: 95%;
+    margin: auto;
+}
+
+#baner
+{
+    background-color: #00838f;
+    height: 200px;
+}
+
+#menu
+{
+    background-color: #006064;
+    padding: 15px;
+}
+
+#menu > a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+#blok1,#blok2,#blok3
+{
+    float: left;
+    height: 350px;
+    width: 33%;
+}
+
+#stopka
+{
+    clear: both;
+    background-color: #006064;
+    color: white;
+    text-align: right;
+    padding: 10px;
+}
+
+ul { text-align: left; }
+
+button 
+{
+     background-color: #00838f;
+     color: white;
+}
+
+button:hover { color: #80deea; }
