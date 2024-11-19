@@ -1,0 +1,11 @@
+kwerenda1
+SELECT towary.nazwa,towary.cena FROM towary LIMIT 4;
+
+kwerenda2
+SELECT towary.cena FROM towary WHERE towary.nazwa="Ekierka";
+
+kwerenda3
+UPDATE dostawcy SET dostawcy.nazwa="Artykuly szkolne" WHERE dostawcy.id=2;
+
+kwerenda4
+SELECT towary.promocja , sum(towary.promocja=1) AS podsumowanie, sum(towary.promocja=0) AS podsumowanie FROM towary GROUP BY towary.promocja;
