@@ -1,0 +1,11 @@
+kwerenda1
+SELECT towary.nazwa FROM towary WHERE towary.promocja=1;
+
+kwerenda2
+SELECT towary.cena FROM towary WHERE towary.nazwa="Markery 4 szt.";
+
+kwerenda3
+SELECT dostawcy.id,dostawcy.nazwa, SUM(towary.id) AS liczba_towarow FROM dostawcy INNER JOIN towary ON towary.idDostawcy=dostawcy.id GROUP BY dostawcy.nazwa
+
+kwerenda4
+ALTER TABLE dostawcy ADD COLUMN informacje varchar(255)
