@@ -1,0 +1,67 @@
+*
+{
+    font-family: Verdana;
+}
+
+.baner,.stopka
+{
+    clear: both;
+    background-color: #004D40;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.lewy
+{
+    float: left;
+    background-color: #80cbc4;
+    color: white;
+    height: 500px;
+    width: 30%;
+}
+
+.srodkowy
+{
+    float: left;
+    background-color: #e0f2f1;
+    height: 500px;
+    width: 30%;
+    text-align: center;
+}
+
+.prawyG,.prawyD
+{
+    height: 250px;
+    width: 40%;
+}
+
+.prawyG
+{
+    float: left;
+    background-color: #e0f2f1;
+}
+
+.prawyD
+{
+    float: right;
+    background-color: #b2dfdb;
+}
+
+h3
+{
+    text-align: center;
+}
+
+img
+{
+    padding: 5px;
+    height: 150px;
+    border: 1px dotted #004d40;
+    border-radius: 5px;
+}
+
+input
+{
+    margin: 10px;
+}

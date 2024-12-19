@@ -1,0 +1,11 @@
+kwerenda1
+SELECT autorzy.imie,autorzy.nazwisko FROM autorzy ORDER BY autorzy.nazwisko ASC
+
+kwerenda2
+INSERT INTO czytelnicy (`id`, `imie`, `nazwisko`, `kod`) VALUES (NULL,'Ewa','Kowalska','145321')
+
+kwerenda3
+SELECT ksiazki.tytul FROM ksiazki WHERE id_kategoria=2
+
+kwerenda4
+SELECT ksiazki.tytul FROM ksiazki INNER JOIN wypozyczenia ON wypozyczenia.id_ksiazka=ksiazki.id JOIN czytelnicy ON czytelnicy.id=wypozyczenia.id_czytelnik WHERE wypozyczenia.id_czytelnik=2

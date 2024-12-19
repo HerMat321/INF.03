@@ -1,0 +1,3 @@
+1.Klikamy OBRAZ następnie WYMIARY PŁÓTNA i ustawiamy bez zachownia proporcji szerokość 300px
+2.Zaznaczamy caly obraz i klikamy CTRL+V i strzałkami przesuwamy skopiowany obraz na pusty obszar.
+3.Zastępujemy orginalny obraz naszym rozszerzonym.
